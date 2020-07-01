@@ -1,0 +1,173 @@
+*{
+	font-family: 'Lobster', cursive;
+	font-weight: 100;
+	padding: 0px;
+	margin: 0px;
+}
+audio {
+	position: absolute;
+	transform: rotate(180deg);
+	width: 90px;
+	height: 90px;
+	left: -50px;
+	padding: 10px;
+	margin: -30px;
+}
+b {
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+.cont0 {
+	margin-top: 5px;
+	width: 50% center;
+	height: 10%;
+	background-image: url(https://img.freepik.com/vector-gratis/fondo-abstracto-formas-circulares_23-2148383740.jpg?size=626&ext=jpg);
+	text-align: center;
+	outline: 4px solid #F4E422;
+	color: #F8AB2F;
+	overflow: hidden;
+}
+.cont0:hover {
+	color: #F4E422;
+}
+.cont {
+	margin: auto;
+	border: 4px solid #E15151;
+	background-image: url(https://image.freepik.com/vector-gratis/resumen-linea-azul-efecto-luz-fondo_5205-85.jpg);
+	width: 50% center;
+	padding: 20px;
+	overflow: hidden;
+	color: pink;
+}
+.cont::selection {
+	color: #22F47E;
+	background-color: #22D5F4;
+}
+.i1 {
+	float: right;
+	right: 0;
+	width: 500px;
+	position: relative;
+	transition: all 3s;
+}
+.i1:hover{
+	float: right;
+	right: -120px;
+	width: 500px;
+	position: relative;
+}
+.i2 {
+	width: 300px;
+	margin-right: 18px;
+	position: absolute;
+	right: 0;
+	transition: all 3s;
+}
+.i2:hover {
+	width: 300px;
+	margin-right: 18px;
+	position: absolute;
+	right: 120px;
+}
+.i3 {
+	width: 300px;
+	margin-right: 18px;
+	position: absolute;
+	top: 330px;
+	left: -200px;
+	transition: all 3s;
+}
+.i3:hover {
+	width: 300px;
+	margin-right: 18px;
+	position: absolute;
+	top: 300px;
+	left: 120px;
+}
+
+#Contenedor1 {
+    height: 380px;
+    width:580px center;
+    background-color: #6b92b9;
+    background-image: url(https://www.creativosonline.org/blog/wp-content/uploads/2009/08/modular.jpg);
+    position:relative;
+    border:5px solid #E15151;
+    z-index:1;
+}
+#Contenedor1:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    border: 5px solid #fff;
+}
+#Contenedor1:after {
+    content:"";
+    position:absolute;
+    z-index:-1;
+    top:5px;
+    left:5px;
+    right:5px;
+    bottom:5px;
+    border: 6px dotted #E15151;
+}
+#Contenedor1 h4, #Contenedor1 p {
+    font-size:60px;
+    font-weight:bold;
+    text-align:center;
+    text-shadow: 2px 2px 4px #000000;
+    color:#fff;
+    margin-top:200px;
+    margin-bottom:0px;
+    transition: all 1s;
+}
+#Contenedor1 p {
+    font-size:25px;
+    line-height:0;
+    margin-top:50px;
+}
+#Contenedor1 h4:hover {
+    font-size:75px;
+    transition: all 1s;
+}
+#Contenedor2 {
+    list-style: none;
+    width: 568px;
+    margin: 40px auto;
+    padding: 0;
+}
+#Contenedor2 li {
+    margin: 0 20px;
+    float: left;
+}
+#Contenedor2 li:before {
+    content: "";
+    background: #dadada;
+    height: 50px;
+    width: 2px;
+    display: block;
+    margin: 0 auto;
+}
+#Contenedor2 li:nth-child(odd) {
+	transform: rotate(-5deg);
+}
+#Contenedor2 li:nth-child(odd):hover {
+    transform: rotate(-20deg);
+}
+#Contenedor2 li:nth-child(even) {
+	transform: rotate(5deg);
+}
+#Contenedor2 li:nth-child(even):hover {
+    transform: rotate(15deg);
+}
+.Circulos {
+    border-radius: 100px;
+    box-shadow: 0 0 5px #777777;
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
